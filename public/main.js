@@ -225,7 +225,7 @@ document.getElementById('myForm').addEventListener('submit', async function(even
         message: document.getElementById('message').value
     };
 
-    const response = await fetch('/submit-form', {
+    const response = await fetch('https://portfoliowithbackend-kdlnp691s-gauravaayus-projects.vercel.app//submit-form', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
